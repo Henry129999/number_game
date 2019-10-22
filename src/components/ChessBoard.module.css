@@ -1,0 +1,25 @@
+.board {
+  width: 364px;
+  height: 364px;
+  margin: 120px auto;
+  background-color: #BBAD9F;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+.block {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 8px;
+  font-size: 40px;
+  color: #FFFFFF;
+  background-color: #F3BE79;
+  border-radius: 4px;
+}
+.whiteBg {
+  color: #EEE4DA;
+  background-color: #EEE4DA;
+}
