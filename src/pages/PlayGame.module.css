@@ -27,3 +27,7 @@
   border: 1px solid #F67C60;
   margin-left: 24px;
 }
+.restart:focus {
+  color: #F67C60;
+  border-color: #F67C60;
+}
