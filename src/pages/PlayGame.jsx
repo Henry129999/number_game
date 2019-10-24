@@ -118,7 +118,9 @@ class PlayGame extends Component {
           <Button className={styles.button} onClick={this.handleLinkToHome}>
             <Icon type="left" />返回
           </Button>
-          <Button className={classNames(styles.button, styles.restart)} onClick={this.handleGetRandomArray}>重新开始</Button>
+          <Button className={classNames(styles.button, styles.restart)} onClick={this.handleGetRandomArray}>
+            重新开始
+          </Button>
         </div>
         <ChessBoard arr={orderArray} />
       </div>
