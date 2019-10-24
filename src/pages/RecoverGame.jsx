@@ -70,7 +70,7 @@ class RecoverGame extends Component {
     return result;
   };
 
-  // 恢复拼图逻辑
+  // 找出恢复拼图的路径
   handleFindRecoverPuzzlePath = () => {
     const { orderArray } = this.state;
     const targetStr = '123456780';
