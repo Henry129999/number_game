@@ -100,6 +100,7 @@ class RecoverGame extends Component {
     }
   };
 
+  // 根据路径恢复拼图
   handleRecoverPuzzle = async (prevNodeStack) => {
     let backtrackStr = '123456780';
     let moveNodeArr = [];
