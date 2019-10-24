@@ -31,7 +31,8 @@ class PlayGame extends Component {
         orderArray[i] = orderArray[index];
         orderArray[index] = temp;
       }
-      isValidArray = this.handleCheckRandomArray(orderArray);
+      isValidArray = this.handleCheckRandomArray(orderArray)
+        && orderArray.toString().split(',').join('') !== '123456780'; // 逆序数为偶 && 不能为目标数组
     }
     this.setState({
       orderArray,
