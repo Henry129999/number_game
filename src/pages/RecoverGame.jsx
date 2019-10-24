@@ -110,7 +110,7 @@ class RecoverGame extends Component {
     }
     moveNodeArr.shift();
     for (let n = 0; n <= moveNodeArr.length - 1; n += 1) {
-      await sleep(500);
+      await sleep(300);
       this.setState({
         orderArray: moveNodeArr[n],
       });
