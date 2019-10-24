@@ -75,7 +75,7 @@ class RecoverGame extends Component {
     const { orderArray } = this.state;
     const targetStr = '123456780';
     let isFind = false;
-    let nodeQueue = []; // 存储所有走过的节点的栈，采用广度优化遍历
+    let nodeQueue = []; // 存储需要遍历的节点的栈，采用广度优化遍历
     let prevNodeStack = {}; // 存储父子节点之间的相互关系
     let allTestedNode = {}; // 存储所有走过的节点
     nodeQueue.push(orderArray);
